@@ -3,80 +3,71 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width" , initial-scale="1">
-    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/cea6b6991c.js" crossorigin="anonymous"></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" 
         rel="stylesheet">
-    <title>Красько Дарья</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>KraskoDarya</title>
 </head>
 
 <body>
-    <header>
-        <h1>Здесь Вы узнаете чуть больше обо мне и моих интересах!</h1>
-        <img src="img/Myphoto.jpg" alt="Фотография Даши" width="300">
-        <nav>Подружись со мной в социальных сетях:
-            <ul>
-                <li>instagram <a href="https://www.instagram.com/kraskodasha_/">kraskodasha_</a></li>
-                <li>vkontakte <a href="https://vk.com/id67026824">Dasha Khilko</a></li>
-                <li>telegram @Dasha_Krasko</li>
-            </ul>
-        </nav>
-    </header>
-
+    <div class="background">
+        <header class="header">
+            <a href="#" class="logo">KRASKO</a>
+            <nav class="navigation-menu">
+                <a href="#about-student" class="navigation-menu__item">Обо мне</a>
+                <a href="#hobbies" class="navigation-menu__item">Увлечения</a>
+                <a href="#social-media" class="navigation-menu__item">Социальные сети</a>
+            </nav>
+        </header>
+        <section class="student">
+            <h1 class="title">Красько Дарья</h1>
+            <p class="student__text">Студентка CodeGirl school</p>
+            <a href="#social-media" class="button button--white">Подружиться</a>
+        </section>
+    </div>
     <main>
-        <section>
-            <h2>Приятно познакомиться!</h2>
-            <p>
-                Меня зовут Даша и мне 26 лет. У меня есть замечательная семья и маленький сын. Сейчас я нахожусь в
-                декретном отпуске и,
-                чтобы не сойти с ума, решила, что нужно постоянно чем-то себя занимать или отвлекать от домашней рутины.
-                Люблю выпекать
-                десерты - могу назвать это своим хобби. Лучше всего у меня получается выпекать <a
-                    href="https://www.instagram.com/stories/highlights/18201963586234865/">тортики</a>
-                и французский десерт - <a
-                    href="https://www.instagram.com/stories/highlights/17930910782695691/">макарон</a>.
-                Получаю эстетическое удовольсвие от процесса приготовления.
-            </p>
+        <section class="about-student" id="about-student">
+            <img src="img/student.jpg" alt="Фотграфия студентки" class="photo">
+            <h3 class="designation">Красько Дарья</h3>
+            <p class="about-student__name">Студентка CodeGirl School</p>
+            <p class="about-student__text">Меня зовут Даша и мне 27 лет. У меня есть замечательная семья и маленький сын. Сейчас я нахожусь
+                в декретном отпуске и, чтобы не сойти с ума, решила, что нужно постоянно чем-то себя занимать или отвлекать от домашней рутины.
+                Люблю выпекать десерты и могу назвать это своим хобби.</p>
         </section>
 
-        <section>
-            <h2>Почему именно web-разработка?</h2>
-            <p>
-                По образованию я - экономист, а точнее банковский работник. Три года проработав в банке, я поняла, что
-                это
-                скучновато для меня. Когда стал вопрос о выборе нового направления для изучения, я выбрала IT-сферу. Да,
-                не буду скрывать,
-                выбрала именно потому что все об этом говорили. Я прошла курсы ручного тестирования, но результата не
-                получила.
-                В моем окружении есть друзья, которые работают разработчиками в ит-компаниях и мне стало интресно: что
-                это за профессия!
-            </p>
-        </section>
-
-        <section>
-            <h2>Книги или фильмы?</h2>
-            <p>
-                Скажу честно, книги я редко читаю, не потому что не люблю или не хочу, а потому что немногие книги могут
-                меня
-                заинтересовать. Больше предпочитаю жанры про психологию, либо книги, которые рассказывают историю,
-                жизненный путь
-                каких-либо знаменитостей.
-                Что касается фильмов - все зависит от натсроения. Иногда хочется посмотреть что-то легкое, смешное и
-                веселое. А порой
-                наткнешься на какой-нибудь остросюжетный фильм и смотришь на одном дыхании.
-            </p>
-            <p>Вот из последних:</p>
-            <a href="https://bookmate.ru/audiobooks/nkMjAu5j">
-                <img src="img/Gucci.jpg" alt="Постер книги Дом Гуччи" width="200">
-            </a>
-            <a href="https://www.kinopoisk.ru/film/4920181/">
-                <img src="img/hokkey.png" alt="Постер фильма Хоккейные папы" width="200">
-            </a>
+        <section class="hobbies" id="hobbies">
+ 
+            <div class="moodboard">
+                <div class="moodboard__item"><img src="img/family.jpg" alt="семья студентки"></div>
+                <div class="moodboard__item"><img src="img/friend.jpg" alt="подруга"></div>
+                <div class="moodboard__item"><img src="img/friends.jpg" alt="друзья"></div>
+                <div class="moodboard__item"><img src="img/cake.jpg" alt="торт"></div>
+                <div class="moodboard__item"><img src="img/macaroon.jpg" alt="пирожное макарон"></div>
+                <div class="moodboard__item"><img src="img/travel.jpg" alt="путешествие"></div>
+                <div class="moodboard__item"><img src="img/parents.jpg" alt="родители"></div>
+                <div class="moodboard__item"><img src="img/turkey.jpg" alt="турция"></div>
+                <div class="moodboard__item"><img src="img/husband.jpg" alt="муж и ребенок"></div>
+              </div>
         </section>
     </main>
 
+        <footer class="social-media" id="social-media">
+            <h2 class="social-media__title">Социальные сети</h2>
+            <p class="social-media__text">Буду рада нашей дружбе!</p>
+            <div class="social-icons">
+                <a href="https://vk.com/id67026824" class="social-icons__item">
+                    <i class="fa-brands fa-vk"></i>
+                </a>
+                <a href="https://www.instagram.com/kraskodasha_/" class="social-icons__item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <a href="#top" id="button-up" class="button-up"></a>
+        </footer>
 </body>
 
 </html>

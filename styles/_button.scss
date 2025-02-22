@@ -1,0 +1,10 @@
+.button--white {
+    @include button-options;
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    margin: 0 auto;
+
+    &:hover {
+        @include button-state-on-hover;
+    }
+}

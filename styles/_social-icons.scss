@@ -1,0 +1,28 @@
+.social-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__item:not(:last-child) {
+        margin-right: 40px;
+    }
+    
+    &__item {
+        font-size: 30px;
+        color: $second-background;
+        background-color: $primary-color;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item:hover {
+        @include state-on-hover;
+        transform: scale(1.2);
+        transition-duration: 1s;
+    }
+}

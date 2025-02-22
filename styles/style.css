@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", serif, sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  background-color: rgb(117, 92, 72);
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.42);
+  padding: 44px 359px 45px 372px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3.125rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  line-height: 62.65px;
+}
+.logo:hover {
+  transition: 0.3s linear;
+  color: rgb(255, 166, 13);
+}
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+}
+.navigation-menu__item {
+  font-size: 1.375rem;
+  color: rgb(255, 255, 255);
+  line-height: 27.57px;
+}
+.navigation-menu__item:not(:last-child) {
+  margin-right: 25px;
+}
+.navigation-menu__item:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1.5px;
+  height: 16px;
+  background-color: rgb(216, 213, 213);
+  margin-left: 25px;
+  background-color: rgb(255, 255, 255);
+}
+.navigation-menu__item:hover {
+  transition: 0.3s linear;
+  color: rgb(255, 166, 13);
+}
+
+.student {
+  padding: 218px 0 185px;
+}
+.student__text {
+  font-size: 1.5625rem;
+  color: rgb(255, 255, 255);
+  margin: 35px auto 60px;
+  line-height: 31.33px;
+}
+
+.title {
+  font-size: 5.3125rem;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  max-width: 1070px;
+  line-height: 103.43px;
+}
+
+.button--white {
+  display: block;
+  width: 312px;
+  height: 60px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  line-height: 60px;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  margin: 0 auto;
+}
+.button--white:hover {
+  background-color: rgb(255, 166, 13);
+  border: rgb(255, 166, 13);
+  transition: 0.5s linear;
+}
+
+.about-student {
+  padding: 100px 0;
+  background-color: rgb(243, 247, 234);
+}
+.about-student__name {
+  font-size: 1.5625rem;
+  font-weight: 300;
+  line-height: 31.33px;
+  color: rgb(0, 0, 0);
+  margin: 30px 0;
+}
+.about-student__text {
+  font-size: 1.875rem;
+  line-height: 41.19px;
+  margin: 0 auto;
+  max-width: 939px;
+}
+
+.designation {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 50.12px;
+}
+
+.photo {
+  max-width: 398px;
+  width: 100%;
+  border-radius: 20%;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  background-color: rgb(117, 92, 72);
+  padding: 100px 0;
+}
+.social-media__title {
+  font-size: 4.0625tem;
+  line-height: 81.45px;
+  color: rgb(255, 255, 255);
+  margin: 0 0 60px;
+}
+.social-media__text {
+  color: rgb(177, 177, 177);
+  font-size: 1.5625rem;
+  line-height: 31.33px;
+  margin: 60px 0;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social-icons__item:not(:last-child) {
+  margin-right: 40px;
+}
+.social-icons__item {
+  font-size: 30px;
+  color: rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons__item:hover {
+  transition: 0.3s linear;
+  color: rgb(255, 166, 13);
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.button-up {
+  position: fixed;
+  background-color: rgb(255, 172, 28);
+  right: 20px;
+  bottom: 19px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
+.button-up::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 12.73px;
+  text-align: center;
+  background-image: url(../img/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 21px;
+  top: 29px;
+}
+
+.moodboard {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.moodboard__item {
+  width: 33.3333333333%;
+  height: 400px;
+  padding: 10px;
+}
+.moodboard__item img {
+  width: 100%;
+  height: 100%;
+}
+
+.hobbies {
+  padding: 100px 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+.logo {
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    color: $primary-color;
+    line-height: 62.65px;
+
+    &:hover {
+        @include state-on-hover;
+    }
+}

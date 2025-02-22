@@ -1,0 +1,20 @@
+@mixin button-options {
+    display: block;
+    width: 312px;
+    height: 60px;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+@mixin button-state-on-hover {
+    background-color: rgba(255, 166, 13, 1);
+    border: rgba(255, 166, 13, 1);
+    transition: .5s linear;
+}
+@mixin state-on-hover {
+    transition: .3s linear;
+    color: rgba(255, 166, 13, 1);
+}
+

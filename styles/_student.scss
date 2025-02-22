@@ -1,0 +1,10 @@
+.student {
+    padding: 218px 0 185px;
+
+    &__text {
+        font-size: 1.5625rem;
+        color: $primary-color;
+        margin: 35px auto 60px;
+        line-height: 31.33px;
+    }
+}

@@ -1,0 +1,18 @@
+.social-media {
+    background-color: rgb(117, 92, 72);
+    padding: 100px 0;
+
+    &__title {
+        font-size: 4.0625tem;
+        line-height: 81.45px;
+        color: $primary-color;
+        margin: 0 0 60px;
+    }
+
+    &__text {
+        color: rgba(177, 177, 177, 1);
+        font-size: 1.5625rem;
+        line-height: 31.33px;
+        margin: 60px 0;
+    }
+}

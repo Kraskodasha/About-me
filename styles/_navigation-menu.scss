@@ -1,0 +1,28 @@
+.navigation-menu {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        font-size: 1.375rem;
+        color: $primary-color; 
+        line-height: 27.57px; 
+
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
+
+        &:not(:last-child)::after {
+            content: "";
+            display: inline-block;
+            width: 1.5px;
+            height: 16px;
+            background-color: rgba(216, 213, 213, 1);
+            margin-left: 25px;
+            background-color: $primary-color;
+        }  
+        
+        &:hover {
+            @include state-on-hover;
+        }
+    }  
+}

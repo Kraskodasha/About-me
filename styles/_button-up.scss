@@ -1,0 +1,25 @@
+.button-up {
+    position: fixed;
+    background-color: rgba(255, 172, 28, 1);
+    right: 20px;
+    bottom: 19px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 12.73px;
+        text-align: center;
+        background-image: url(../img/arrow.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        left: 21px;
+        top: 29px;
+    }
+}
